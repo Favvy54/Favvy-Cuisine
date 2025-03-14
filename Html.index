@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Personal Website</h1>
+        <p>I'm learning web development and building amazing projects!</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am [Your Name]. I am currently learning HTML, CSS, and JavaScript to become a great web developer.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Coding Progress</h2>
+
+        <div class="progress-section">
+            <h3>HTML Progress</h3>
+            <div class="progress-bar">
+                <div class="progress html"></div>
+            </div>
+            <p>75% Completed</p>
+        </div>
+
+        <div class="progress-section">
+            <h3>CSS Progress</h3>
+            <div class="progress-bar">
+                <div class="progress css"></div>
+            </div>
+            <p>60% Completed</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at: [Your Email]</p>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html
